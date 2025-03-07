@@ -6,14 +6,40 @@ let titles_model = ["Locomotion", "Manipulation", "Manipulator", "Grasp", "Plan"
 let titles_method = ["Optimization", "Model Predictive"];
 let titles = titles_model + titles_method + titles_type;
 let authors_array = [
+    // ==Robotics
+    // CMU RI
+    "Zachary Manchester", "Shuo Yang", "John Z. Zhang",
+    // CMU RI LeCar
+    "Guanya Shi", "Chaoyi Pan", "Tairan He",
     // ETH RSL
-    "Marco Hutter", "Peter Fankhauser",
-    //
-    "Dieter Fox", "Frank Dellaert", "Marco Tognon", "Davide Scaramuzza", "Javier Alonso-Mora", "Peter Corke", "Angela P. Schoellig", "Roland Siegwart",
-    "Vijay Kumar",
-    // HKUST
-    "Shaojie Shen", "Fei Gao", "Tong Qin", "Wenchao Ding", "Fu Zhang", "Boyu Zhou",
-    "Yanjun Cao", "Hesheng Wang", "Huan Yin", "Peng Yin", "Ming Liu", "Yue Wang", "Hang Zhao", "Xieyuanli Chen"];
+    "Marco Hutter", "Peter Fankhauser", "Farbod Farshidian", "Fabian Jenelten",
+    // ETH Disney Research
+    "Ruben Grandia",
+    // Boston Dynamics
+    "Marc Raibert",
+    // Boston Robotics AI
+    // MIT
+    "Russ Tedrake",
+    // MIT Biomimetics
+    
+    // UCB Hybrid Robotics
+    // ZJU DeepRobotics
+    "Qiuguo Zhu",
+    // SUSTech LimX
+    "Wei Zhang",
+    // HKUST Aerial Robotics
+    "Shaojie Shen", "Fei Gao", "Tong Qin", "Boyu Zhou",
+    // HKU MARS
+    "Fu Zhang",
+
+    // ==AI
+    // UCB
+    "Sergey Levine"
+    // MIT CSAIL
+];
+// "Yanjun Cao", "Wenchao Ding", "Hesheng Wang", "Huan Yin", "Peng Yin", "Ming Liu", "Yue Wang", "Hang Zhao", "Xieyuanli Chen"];
+// "Dieter Fox", "Frank Dellaert", "Marco Tognon", "Davide Scaramuzza", "Javier Alonso-Mora", "Peter Corke", "Angela P. Schoellig", "Roland Siegwart",
+// "Vijay Kumar",
 
 let conferences = [
     // AI
