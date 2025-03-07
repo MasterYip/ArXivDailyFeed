@@ -1,6 +1,11 @@
 site_title = "ArXivDailyFeed"
-limit_days = 7
+limit_days = 14
 cache_url = "https://masteryip.github.io/MyArxiv/cache.json"
+
+[[sources]]
+limit = 150
+category = "cs.RO"
+title = "Robotics"
 
 [[sources]]
 limit = 150
@@ -11,11 +16,6 @@ title = "Computer Vision and Pattern Recognition"
 limit = 150
 category = "cs.LG"
 title = "Machine Learning"
-
-[[sources]]
-limit = 150
-category = "cs.RO"
-title = "Robotics"
 
 [[sources]]
 limit = 300
