@@ -8,30 +8,29 @@ let titles = titles_model + titles_method + titles_type;
 let authors_array = [
     // ==Robotics
     // CMU RI
-    "Zachary Manchester", "Shuo Yang", "John Z. Zhang",
-    "Aaron Johnson", "Howie Choset",
+    "Zachary Manchester", "Aaron Johnson", "Howie Choset","Shuo Yang", "John Z. Zhang",
     // CMU RI LeCar
     "Guanya Shi", "Chaoyi Pan", "Tairan He",
-    "Michael Posa",
     // ETH RSL
     "Marco Hutter", "Peter Fankhauser", "Farbod Farshidian", "Fabian Jenelten",
-    "Markus Giftthaler", "Remy Blank",
     // ETH Disney Research
     "Ruben Grandia",
     // Boston Dynamics
-    "Marc Raibert",
-    "Eric Whitman", "Alfred Rizzi",
+    "Marc Raibert", "Alfred Rizzi",
     // Boston Robotics AI
     // MIT
     "Russ Tedrake",
     "Anirudha Majumdar", "Julie Shah",
-    // MIT Biomimetics
+    // MIT Biomimetic
+    "Sangbae Kim",
+    // SFU
+    "Xue Bin Peng",
     
     // UCB Hybrid Robotics
     "Koushil Sreenath", "Aaron Ames",
-    // ZJU DeepRobotics
-    "Qiuguo Zhu",
-    "Rong Xiong", "Hesheng Wang",
+    // ZJU Control
+    "Qiuguo Zhu", "Rong Xiong", "Hesheng Wang",
+    "Chao Xu", "Fei Gao",
     // SUSTech LimX
     "Wei Zhang",
     "Yusheng Wang",
@@ -44,14 +43,19 @@ let authors_array = [
 
     // ==AI
     // UCB
-    "Sergey Levine",
-    "Pieter Abbeel", "Chelsea Finn",
+    "Sergey Levine", "Pieter Abbeel", "Chelsea Finn",
     // MIT CSAIL
     "Josh Tenenbaum", "Leslie Kaelbling",
+    // MIT EECS
+    "Kaiming He", 
     // DeepMind
     "Raia Hadsell", "David Silver",
     // Stanford
-    "Fei-Fei Li", "Dorsa Sadigh"
+    "Fei-Fei Li", "Dorsa Sadigh",
+    // OpenAI
+    "Ilya Sutskever", "Pieter Abbeel",
+    // DeepSeek
+
 ];
 // "Yanjun Cao", "Wenchao Ding", "Hesheng Wang", "Huan Yin", "Peng Yin", "Ming Liu", "Yue Wang", "Hang Zhao", "Xieyuanli Chen"];
 // "Dieter Fox", "Frank Dellaert", "Marco Tognon", "Davide Scaramuzza", "Javier Alonso-Mora", "Peter Corke", "Angela P. Schoellig", "Roland Siegwart",
